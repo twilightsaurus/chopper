@@ -1,0 +1,27 @@
+.header {
+  flex: 1 0 33%;
+  background-size: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #ffffff;
+}
+
+.header h1 {
+  font-size: 6em;
+  margin: 0;
+  filter: drop-shadow(3px 3px 3px hsl(0, 0%, 0%));
+}
+
+.header h2 {
+  margin: 1em 0 0 0;
+  font-weight: 300;
+  font-size: 3em;
+  filter: drop-shadow(3px 3px 3px hsl(0, 0%, 0%));
+}
+
+.emojis {
+  font-size: 2em;
+}
