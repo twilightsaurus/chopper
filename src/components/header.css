@@ -1,5 +1,5 @@
 .header {
-  flex: 1 0 33%;
+  flex: 1 0 25%;
   background-size: 600px;
   display: flex;
   flex-direction: column;
@@ -7,6 +7,7 @@
   justify-content: center;
   width: 100%;
   color: #ffffff;
+  padding: 0;
 }
 
 .header h1 {
@@ -16,7 +17,7 @@
 }
 
 .header h2 {
-  margin: 1em 0 0 0;
+  margin: 0.5em 0 0 0;
   font-weight: 300;
   font-size: 3em;
   filter: drop-shadow(3px 3px 3px hsl(0, 0%, 0%));
